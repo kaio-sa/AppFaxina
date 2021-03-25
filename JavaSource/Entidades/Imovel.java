@@ -10,6 +10,22 @@ public class Imovel {
 	private Integer qtdAnimais;
 	private Integer tamanhoEstimadoCasa;
 
+	public Imovel() {
+		super();
+	}
+
+	public Imovel(Integer qtdQuartos, Integer qtdBanheiros, Integer qtdCozinhas, Integer qtdAndares,
+			Integer qtdGaragens, Integer qtdAnimais, Integer tamanhoEstimadoCasa) {
+		super();
+		this.qtdQuartos = qtdQuartos;
+		this.qtdBanheiros = qtdBanheiros;
+		this.qtdCozinhas = qtdCozinhas;
+		this.qtdAndares = qtdAndares;
+		this.qtdGaragens = qtdGaragens;
+		this.qtdAnimais = qtdAnimais;
+		this.tamanhoEstimadoCasa = tamanhoEstimadoCasa;
+	}
+
 	public Integer getQtdQuartos() {
 		return qtdQuartos;
 	}
