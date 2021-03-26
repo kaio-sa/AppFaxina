@@ -4,9 +4,10 @@ import Entidades.Endereco;
 
 public class EnderecoServico {
 
-	public static Endereco criarEndereco(String cep, String estado, String cidade, String bairro, String rua, Integer numCasa) {
+	public static Endereco criarEndereco(String cep, String estado, String cidade,
+			String bairro, String rua, Integer numero) {
 
-		Endereco novoEndereco = new Endereco(cep, estado, cidade, bairro, rua, numCasa);
+		Endereco novoEndereco = new Endereco(cep, estado, cidade, bairro, rua, numero);
 
 		System.out.println("Novo Endereço Criado Abaixo");
 		System.out.println("Cep: " + novoEndereco.getCep());
