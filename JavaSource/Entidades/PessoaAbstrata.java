@@ -5,9 +5,25 @@ public abstract class PessoaAbstrata {
 	private String nome;
 	private String sobrenome;
 	private Integer idade;
-	private String numeroCeluar;
+	private Integer numeroCeluar;
 	private String sexo;
 	private Endereco endereco;
+	
+	
+	public PessoaAbstrata() {
+		super();
+	}	
+
+	public PessoaAbstrata(String nome, String sobrenome, Integer idade, Integer numeroCeluar, String sexo,
+			Endereco endereco) {
+		super();
+		this.nome = nome;
+		this.sobrenome = sobrenome;
+		this.idade = idade;
+		this.numeroCeluar = numeroCeluar;
+		this.sexo = sexo;
+		this.endereco = endereco;
+	}
 
 	public String getNome() {
 		return nome;
@@ -33,11 +49,11 @@ public abstract class PessoaAbstrata {
 		this.idade = idade;
 	}
 
-	public String getNumeroCeluar() {
+	public Integer getNumeroCeluar() {
 		return numeroCeluar;
 	}
 
-	public void setNumeroCeluar(String numeroCeluar) {
+	public void setNumeroCeluar(Integer numeroCeluar) {
 		this.numeroCeluar = numeroCeluar;
 	}
 
