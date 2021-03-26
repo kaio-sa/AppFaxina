@@ -6,9 +6,9 @@ public class Faxineira extends PessoaAbstrata {
 		super();
 	}
 
-	public Faxineira(String nome, String sobrenome, Integer idade, Integer numeroCeluar, String sexo,
+	public Faxineira(String nome, String sobrenome, Integer idade, Integer numCelular, String sexo,
 			Endereco endereco) {
-		super(nome, sobrenome, idade, numeroCeluar, sexo, endereco);
+		super(nome, sobrenome, idade, numCelular, sexo, endereco);
 		}
 
 }

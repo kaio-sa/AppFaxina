@@ -14,13 +14,13 @@ public abstract class PessoaAbstrata {
 		super();
 	}	
 
-	public PessoaAbstrata(String nome, String sobrenome, Integer idade, Integer numeroCeluar, String sexo,
+	public PessoaAbstrata(String nome, String sobrenome, Integer idade2, Integer numCelular, String sexo,
 			Endereco endereco) {
 		super();
 		this.nome = nome;
 		this.sobrenome = sobrenome;
-		this.idade = idade;
-		this.numeroCeluar = numeroCeluar;
+		this.idade = idade2;
+		this.numeroCeluar = numCelular;
 		this.sexo = sexo;
 		this.endereco = endereco;
 	}

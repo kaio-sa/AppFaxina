@@ -5,10 +5,10 @@ import Entidades.Faxineira;
 
 public class FaxineiraServico {
 
-	public static Faxineira criarFaxineira(String nome, String sobrenome, Integer idade, Integer numeroCelular,
+	public static Faxineira criarFaxineira(String nome, String sobrenome, Integer idade, Integer numCelular,
 			String sexo, Endereco endereco) {
 
-		Faxineira aFaxineira = new Faxineira(nome, sobrenome, idade, numeroCelular, sexo, endereco);
+		Faxineira aFaxineira = new Faxineira(nome, sobrenome, idade, numCelular, sexo, endereco);
 
 		System.out.println("Nome: "+ aFaxineira.getNome());
 		System.out.println("Sobrenome: "+ aFaxineira.getSobrenome());

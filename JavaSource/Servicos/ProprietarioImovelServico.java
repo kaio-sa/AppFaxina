@@ -5,10 +5,10 @@ import Entidades.ProprietarioImovel;
 
 public class ProprietarioImovelServico {
 
-	public static ProprietarioImovel criarProprietarioImovel(String nome, String sobrenome, Integer idade, Integer numeroCelular,
+	public static ProprietarioImovel criarProprietarioImovel(String nome, String sobrenome, Integer idade, Integer numCelular,
 			String sexo, Endereco endereco) {
 
-		ProprietarioImovel propritarioImovel = new ProprietarioImovel(nome, sobrenome, idade, numeroCelular, sexo, endereco);
+		ProprietarioImovel propritarioImovel = new ProprietarioImovel(nome, sobrenome, idade, numCelular, sexo, endereco);
 
 		System.out.println("Nome: "+ propritarioImovel.getNome());
 		System.out.println("Sobrenome: "+ propritarioImovel.getSobrenome());
